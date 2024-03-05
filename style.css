@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    background-color: #F1F2F4;
+}
+
+/** Navbar **/
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    background-color: #F0F5FF;
+    border-radius: 8px;
+}
+
+.search-logo {
+    height: 40px;
+    width: 44px;
+    padding: 8px 8px 8px 12px;
+    background-color: #F0F5FF;
+    border-radius: 8px;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    height: 40px;
+    width: 650px;
+    border: transparent;
+    background-color: #F0F5FF;
+    font-size: 17px;
+    font-weight: lighter;
+    border-radius: 8px;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.icons {
+    padding-right: 8px;
+}
+
+select {
+    border: none;
+}
+
+.bc {
+    background-color: #FFFFFF;
+}
+
+/** -Shop-Cat- **/
+
+.shop-cat {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.first-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    background-color: #FFFFFF;
+    margin-top: 74px;
+    margin-bottom: 15px;
+}
+
+.box {
+    width: 130px;
+    height: 142px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.abox {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-sbi {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-cat1 {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.second-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.box1 {
+    width: 90%;
+    height: 265px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.lite-txt {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.bold-txt {
+    font-weight: bold;
+}
+
+.phone-img {
+    text-align: end;
+    margin-right: 15px;
+}
+
+.shop-cat2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    width: 98%;
+    background-color: #FFFFFF;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.third-sec {
+    display: flex;
+    align-items: center;
+    width: 98%;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.cir {
+    background-color: blue;
+    color: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 100%;
+}
+
+/** -Footer- **/
+
+footer {
+    margin-top: 10px;
+    background-color: #212121;
+}
+
+.foot {
+    background-color: #212121;
+    color: #666666;
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 60px 0px;
+}
+
+ul {
+    font-size: 13px;
+    text-decoration: none;
+    padding-right: 80px;
+    background-color: #212121;
+}
+
+ul a {
+    padding-top: 5px;
+    background-color: #212121;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul p {
+    padding-bottom: 10px;
+    font-weight: bold;
+    background-color: #212121;
+}
+
+.vl {
+    border-left: 0.5pt solid #595959;
+    height: 160px;
+}
+
+.foot .f-ul1 {
+    padding-right: 20px;
+}
+
+ul .f2 {
+    padding-left: 20px;
+    font-weight: lighter;
+    color: #F1F2F4;
+    font-size: 13px;
+}
+
+ul .f1 {
+    padding-left: 20px;
+}
+
+.foot2 {
+    width: 100%;
+    height: 70px;
+    background-color: #212121;
+    color: #F1F2F4;
+    font-size: 13px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot2 p {
+    background-color: #212121;
+    color: #F1F2F4;
+}
+
+.hl {
+    margin-top: 20px;
+    border: 0.5pt solid #595959;
+}
+
